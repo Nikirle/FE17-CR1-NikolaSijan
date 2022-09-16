@@ -4,7 +4,7 @@
 }
 
 body {
-  margin: 0 20rem;
+  margin: 2rem 20rem;
 }
 
 h1 {
@@ -17,6 +17,8 @@ h1 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  box-shadow: 3px 3px 3px black;
+  border: 1px solid black;
 }
 
 .item1 img {
@@ -32,4 +34,20 @@ h1 {
 .icons img {
   height: 2rem;
   width: 2rem;
+}
+
+.howto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.howto .ingridient {
+  width: 50%;
+  list-style-position: inside;
+  text-align: start;
+  padding-left: 6rem;
+}
+.howto .method {
+  width: 50%;
 }/*# sourceMappingURL=bestrecipte.css.map */
