@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+}
+
+.baner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+
+    .lefttop{
+        font-family: 'Dancing Script', cursive;
+        font-weight: bold;
+        font-size: 2rem;
+        padding-left: 2rem;
+    }
+
+    .righttop{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        padding-right: 1rem;
+        font-weight: bold;
+      
+        #recipes{
+            padding-right: 1rem;
+        }
+    }
+}
+
