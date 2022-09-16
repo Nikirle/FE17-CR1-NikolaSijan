@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 20rem;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.item1 img{
+    height: 400px;
+    width: 100%;
+}
+
+.icons{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    img{
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
