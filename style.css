@@ -29,6 +29,10 @@ body {
 .baner .righttop #recipes {
   padding-right: 1rem;
 }
+.baner .righttop img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
 
 .nav {
   display: flex;
@@ -59,4 +63,52 @@ body {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.footercontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.footercontainer .footernav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
+}
+.footercontainer .footernav a {
+  text-decoration: none;
+  color: white;
+  width: 16rem;
+  text-align: center;
+}
+.footercontainer .footernav #recipes {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+.footercontainer .footernav #faq {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+.footercontainer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.footercontainer .icons .icon {
+  width: 2rem;
+}
+.footercontainer .icons img {
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: white;
+  border-radius: 10px;
+}
+.footercontainer .cp {
+  font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */

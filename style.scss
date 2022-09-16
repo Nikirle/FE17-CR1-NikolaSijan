@@ -31,6 +31,10 @@ body{
         #recipes{
             padding-right: 1rem;
         }
+        img{
+            width: 1.2rem;
+            height: 1.2rem;
+        }
     }
 }
 
@@ -70,4 +74,65 @@ body{
         object-fit: cover;
        
     }
+}
+
+.footercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    color: white;
+
+    .footernav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1.5rem;
+        font-size: 0.9rem;
+
+
+        a{
+            text-decoration: none;
+            color: white;
+            width: 16rem;
+            text-align: center;
+
+        }
+
+        #recipes{
+            
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+        }
+
+        #faq{
+            
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+        }
+    }
+
+   .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+
+        .icon{
+            width: 2rem;
+        }
+        img{
+            height: 1.2rem;
+            width: 1.2rem;
+           background-color: white;
+           border-radius: 10px;
+          
+            
+        }
+   }
+
+   .cp{
+    font-size: 0.8rem;
+   }
 }
