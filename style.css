@@ -58,6 +58,19 @@ body {
   gap: 1rem;
   margin: 2rem auto;
 }
+.container .positioning {
+  position: relative;
+  text-align: center;
+}
+.container .positioning p {
+  background-color: black;
+  position: absolute;
+  height: 20%;
+  top: 80%;
+  width: 100%;
+  opacity: 0.5;
+  color: white;
+}
 .container img {
   height: 100%;
   width: 100%;
