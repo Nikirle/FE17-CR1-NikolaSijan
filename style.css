@@ -23,4 +23,20 @@
 }
 .baner .righttop #recipes {
   padding-right: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid lightslategray;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 0.8rem;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
