@@ -49,6 +49,9 @@ body {
   text-decoration: none;
   color: black;
 }
+.nav a:hover {
+  font-weight: bold;
+}
 
 .container {
   display: grid;

@@ -43,8 +43,6 @@ main{
     .aboveall{
         list-style:inside;
     }
-
-
 }
 
 footer{
@@ -69,15 +67,20 @@ footer{
 
         button{
             font-size: 1.5rem;
+            background-color: white;
+            border-radius: 5px;
+            
+            &:hover{
+                cursor: pointer;
+                font-weight: bold;
+            }
         }
 
         p{
             font-size: 0.8rem;
         }
-
         
     }
-
 
     .socialm{
 
@@ -85,16 +88,11 @@ footer{
         flex-direction: column;
         align-items: center;
 
-        
-        
-
-
         .icons{
             display: flex;
             justify-content: center;
             align-items: center;
             
-        
                 .icon{
                     width: 2rem;
                 }
@@ -103,18 +101,13 @@ footer{
                     width: 1.7rem;
                    background-color: white;
                    border-radius: 10px;
-                  
-                    
+                        
                 }
            }
-
-
     }
     
     .cp{
         padding-top:4rem;
-
-       
 
     }
 }
